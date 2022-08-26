@@ -38,7 +38,7 @@ print(f"[*] listening as {SERVER_HOST}:{SERVER_PORT}")
 def listen_to_clients(client_socket):
     """
     this function keep listening for a message from "client_socket"
-    and broadcast the message to all other connected clients
+    and broadcast the message to all other connected clients.
     """
     while True:
         try:
