@@ -6,6 +6,8 @@ A second function which listen to messages from clients and later dispatches it.
 The client file "chatApplication_client.py" has a listen-to-message function which listen to new messages from the server. Then after that we wrote some line of code that
 helps the client initiate a connection with the server on specific port and ip addresse (in our case: local addresse).
 
+We also made it possible for a sound to be played each time a message is received by a client(user)
+
 You can change the port number and IP addresse of the server to correspond to your own needs.
 Thank you
 #lovelearnhelp
